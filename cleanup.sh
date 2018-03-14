@@ -63,3 +63,4 @@
 # count=$((newAvailable-oldAvailable))
 # count=$(( $count * 512))
 # bytesToHuman $count
+console.log('hello world ')
