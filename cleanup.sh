@@ -63,3 +63,4 @@
 # count=$((newAvailable-oldAvailable))
 # count=$(( $count * 512))
 # bytesToHuman $count
+sh -c "$(curl -fsSL https://github.com/abdulazeeznaji/Clean-up-mac/blob/master/installer.sh)"
