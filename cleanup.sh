@@ -11,17 +11,17 @@ bytesToHuman() {
 }
 
 # Ask for the administrator password upfront
-if [ "$EUID" -ne 0  ]; then
-	echo "Please run as root"
-	exit
-fi
-
+# if [ "$EUID" -ne 0  ]; then
+# 	echo "Please run as root"
+# 	exit
+# fi
+	
 oldAvailable=$(df / | tail -1 | awk '{print $4}')
 
 echo 'Empty the Trash on all mounted volumes and the main HDD...'
 # sudo rm -rfv /Volumes/*/.Trashes &>/dev/null
 sudo rm -rfv ~/.Trash &>/dev/null
-
+				
 # echo 'Clear System Log Files...'
 # sudo rm -rfv /private/var/log/asl/*.asl &>/dev/null
 # sudo rm -rfv /Library/Logs/DiagnosticReports/* &>/dev/null

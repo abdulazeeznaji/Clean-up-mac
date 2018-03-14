@@ -18,7 +18,7 @@ Cleanup script for OSX
 **use curl**
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/fwartner/mac-cleanup/master/installer.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/abdulazeeznaji/Clean-up-mac/master/installer.sh)"
 ```
 
 **use wget**
