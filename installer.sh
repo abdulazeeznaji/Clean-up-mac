@@ -2,7 +2,7 @@
 
 function install() {
     echo "Download Mac Cleanup"
-    curl -o cleanup https://github.com/abdulazeeznaji/Clean-up-mac/blob/master/cleanup.sh
+    curl -o cleanup https://raw.githubusercontent.com/fwartner/mac-cleanup/master/cleanup.sh
     echo "Init Mac Cleanup"
     chmod +x cleanup
     echo "Install Mac Cleanup"
