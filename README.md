@@ -1,5 +1,6 @@
 # mac-cleanup
 Cleanup script for OSX
+# add this line of code 
 
 **It does the following cleanup tasks:**
 * Empty the Trash on all mounted volumes and the main HDD
