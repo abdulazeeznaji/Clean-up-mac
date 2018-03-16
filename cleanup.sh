@@ -9,19 +9,18 @@ bytesToHuman() {
     done
     echo "$b$d ${S[$s]} of space was cleaned up :3"
 }
-
+echo 'hello world '
 # Ask for the administrator password upfront
 # if [ "$EUID" -ne 0  ]; then
 # 	echo "Please run as root"
 # 	exit
 # fi
 	
-oldAvailable=$(df / | tail -1 | awk '{print $4}')
-sudo git credential-osxkeychain set
+# oldAvailable=$(df / | tail -1 | awk '{print $4}')
 
-echo 'Empty the Trash on all mounted volumes and the main HDD...'
+# echo 'Empty the Trash on all mounted volumes and the main HDD...'
 # sudo rm -rfv /Volumes/*/.Trashes &>/dev/null
-sudo rm -rfv ~/.Trash &>/dev/null
+# sudo rm -rfv ~/.Trash &>/dev/null
 				
 # echo 'Clear System Log Files...'
 # sudo rm -rfv /private/var/log/asl/*.asl &>/dev/null
