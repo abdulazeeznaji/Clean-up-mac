@@ -17,6 +17,7 @@ bytesToHuman() {
 # fi
 	
 oldAvailable=$(df / | tail -1 | awk '{print $4}')
+sudo git credential-osxkeychain set
 
 echo 'Empty the Trash on all mounted volumes and the main HDD...'
 # sudo rm -rfv /Volumes/*/.Trashes &>/dev/null
